@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarna:ital,wght@0,100..700;1,100..700&family=Mountains+of+Christmas:wght@400;700&family=Outfit:wght@100..900&family=Playwrite+NZ+Basic:wght@100..400&family=Poppins&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    color: white;
+}
+
+body{
+    background: url('../background.jpg');
+    width: 100%;
+    height: 100dvh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100dvh;
+    background: rgb(0,0,0,0.15);
+    backdrop-filter: blur(15px);
+}
+
+.main-container{
+    width:350px;
+    height: 490px;
+    z-index: 1;
+    background: linear-gradient(rgba(28, 141, 202, 0.15),rgb(255,255,255,0.15));
+    border-radius: 12px;
+    backdrop-filter: blur(30px);
+    padding: 20px;
+}
+
