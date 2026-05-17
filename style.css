@@ -166,9 +166,35 @@ body:before{
     gap: 6px;
     padding: 10px;
     border-radius: 12px;
+    transition: 0.5s transform;
 }
 
 .forecast-item-img{
     width: 35px;
     height: 35px;
 }
+
+.forecast-item:hover{
+    transform: translateY(-2px);
+    background: rgba(245, 243, 243, 0.457);
+}
+
+.section-message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    margin-top: 25%;
+}
+
+
+.section-message img{
+    height: 180px;
+    width: fit-content;
+
+}
+
+
+
+
